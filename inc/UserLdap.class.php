@@ -57,6 +57,7 @@ class UserLdap
             . 'user_email = :email,'
             . 'user_notes = :notes,'
             . 'user_profileId = :profileId,'
+            . 'user_mIV = \'\','
             . 'user_isLdap = 1,'
             . 'user_isDisabled = :isDisabled';
 
